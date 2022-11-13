@@ -1,0 +1,28 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "hello world smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Saviour Eking",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSaviourEking/hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheSaviourEking/hello-world/issues"
+  },
+  "homepage": "https://github.com/TheSaviourEking/hello-world#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
